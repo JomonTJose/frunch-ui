@@ -1,0 +1,15 @@
+#root {
+  --primary-box-shadow: rgb(28 28 28/8%) 0px 2px 8px;
+  --border-white: rgb(232, 232, 232);
+  --primary-bg: #ffffff;
+  --frunch-red: #4bc353;
+  --frunch-gray: #828282;
+  --gray: rgb(207, 207, 207);
+  --filter-textColor: #9c9c9c;
+  --collection-shadow: rgb(0 0 0 / 8%) 0px 3px 12px;
+  --heading-text-color: #1c1c1c;
+  --tag-green: #267e3e;
+  --tag-blue: #256fef;
+  --tag-red: #d92662;
+  --inactive-text: #696969;
+}

@@ -1,0 +1,43 @@
+.item-cover {
+  height: 250px;
+  width: 290px;
+  /* background-color: var(--primary-bg); */
+  box-shadow: var(--collection-shadow);
+  border-radius: 8px;
+}
+
+.item-image {
+  object-fit: cover;
+  height: 75%;
+  width: inherit;
+  border-radius: 8px;
+}
+
+.item-title {
+  font-size: 20px;
+  font-weight: 500;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin-top: 6px;
+}
+
+.res-row1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  padding: 4px 0px 3px;
+}
+
+.res-rating1 {
+  padding: 0px 8px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--primary-bg);
+  background-color: var(--tag-green);
+  border-radius: 6px;
+  height: 24px;
+}
+.StarBorderRoundedIcon-custom {
+  font-size: 10px;
+  margin-left: 2px;
+}

@@ -1,0 +1,16 @@
+.restaurant-section {
+  display: flex;
+  border-radius: 15px;
+  float: left;
+}
+.res-image {
+  border-radius: 15px;
+  height: 200px;
+}
+
+.restaurant-name {
+  display: flex;
+  flex: 1;
+  font-size: 50px;
+  margin-left: 10px;
+}

@@ -1,0 +1,60 @@
+.explore-card {
+  margin: 12px 0px 24px 0px;
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid transparent;
+}
+
+.explore-card-cover {
+  height: 300px;
+  width: 328px;
+  border-radius: 15px;
+  position: relative;
+}
+
+.explore-card-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+.res-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 0px 3px;
+}
+.res-name {
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--heading-text-color);
+}
+.res-rating {
+  padding: 0px 8px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--primary-bg);
+  background-color: var(--tag-green);
+  border-radius: 6px;
+  height: 24px;
+}
+.StarBorderRoundedIcon-custom {
+  font-size: 10px;
+  margin-left: 2px;
+}
+.res-cuisine {
+  max-width: 50%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 14px;
+  margin-right: 4px;
+  color: var(--inactive-text);
+}
+
+.explore-card:hover {
+  background-color: var(--primary-bg);
+  border: 1px solid var(--border-white);
+}
